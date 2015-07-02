@@ -1,9 +1,9 @@
-# ScreenshotTaker 1.0.0
+# ScreenshotTaker 1.0
 _Simple package to take screenshots_
 
 ##  Installation and Usage
 
-To install ScreenshotTaker, run the following command in the Package Manager Console
+To install ScreenshotTaker, run the following command in the [Package Manager Console](http://docs.nuget.org/docs/start-here/using-the-package-manager-console)
 
 **PM> Install-Package ScreenshotTaker**
 
