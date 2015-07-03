@@ -61,7 +61,7 @@ namespace ScreenshotTaker
             var now = DateTime.Now;
             var screenPath = GetPath();
             var screenName = String.Format("screenshot_{0}",
-                now.ToString("yyyyMMddhhmmfff"));
+                now.ToString("yyyyMMddHHmmssfff"));
 
             using (var bmpScreenCapture = new Bitmap(Screen.PrimaryScreen.Bounds.Width,
                                             Screen.PrimaryScreen.Bounds.Height))
