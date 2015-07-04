@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/elv1s42/ScreenshotTaker.svg)](https://travis-ci.org/elv1s42/ScreenshotTaker)
+[![NuGet](https://img.shields.io/nuget/v/ScreenshotTaker.svg)](https://www.nuget.org/packages/ScreenshotTaker)
 
 # ScreenshotTaker 1.0
 _Simple package to take screenshots_
