@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/elv1s42/ScreenshotTaker.svg)](https://travis-ci.org/elv1s42/ScreenshotTaker)
+
 # ScreenshotTaker 1.0
 _Simple package to take screenshots_
 
@@ -7,4 +9,4 @@ To install ScreenshotTaker, run the following command in the [Package Manager Co
 
 **PM> Install-Package ScreenshotTaker**
 
-Screenshots will be save into the folder "<path_to_current_running_assembly>\\_Screenshots"
+Screenshots will be save into the folder "path_to_current_running_assembly\\_Screenshots"
