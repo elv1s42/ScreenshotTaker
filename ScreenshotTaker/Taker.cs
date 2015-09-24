@@ -39,9 +39,10 @@ namespace ScreenshotTaker
         /// <summary>
         /// Method to clean folder with screenshots
         /// </summary>
-        public static void DeleteScreenshots()
+        public static void DeleteScreenshots(string path = "")
         {
-            var folder = new DirectoryInfo(GetPath());
+            var folderPath = path.Equals("") ? GetPath() : path;
+            var folder = new DirectoryInfo(folderPath);
 
             foreach (var file in folder.GetFiles())
             {
@@ -56,12 +57,11 @@ namespace ScreenshotTaker
         /// <summary>
         /// Method to take screenshot from primary screen and save it into the folder
         /// </summary>
-        public static void TakeScreenshot()
+        public static void TakeScreenshot(string path = "", string name = "")
         {
             var now = DateTime.Now;
-            var screenPath = GetPath();
-            var screenName = String.Format("screenshot_{0}",
-                now.ToString("yyyyMMddHHmmssfff"));
+            var screenPath = path.Equals("") ? GetPath() : path;
+            var screenName = name.Equals("") ? String.Format("screenshot_{0}", now.ToString("yyyyMMddHHmmssfff")) : name;
 
             using (var bmpScreenCapture = new Bitmap(Screen.PrimaryScreen.Bounds.Width,
                                             Screen.PrimaryScreen.Bounds.Height))
