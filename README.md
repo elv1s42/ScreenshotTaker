@@ -16,5 +16,5 @@ or download [latest release](https://github.com/elv1s42/ScreenshotTaker/releases
 
 ##  Screenshots location
 
-Screenshots will be save into the folder "path_to_current_running_assembly\\_Screenshots" 
+Screenshots will be saved into the folder "path_to_current_running_assembly\\_Screenshots" 
 or into the specified folder
