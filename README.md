@@ -1,6 +1,7 @@
 [![Windows Build status](https://ci.appveyor.com/api/projects/status/github/elv1s42/screenshottaker?branch=master&svg=true)](https://ci.appveyor.com/project/elv1s42/screenshottaker/branch/master)
 [![Build Status](https://travis-ci.org/elv1s42/ScreenshotTaker.svg)](https://travis-ci.org/elv1s42/ScreenshotTaker)
 [![NuGet](https://img.shields.io/nuget/v/ScreenshotTaker.svg)](https://www.nuget.org/packages/ScreenshotTaker)
+[![Issue Count](https://codeclimate.com/github/elv1s42/ScreenshotTaker/badges/issue_count.svg)](https://codeclimate.com/github/elv1s42/ScreenshotTaker)
 
 # ScreenshotTaker 1.0.2
 _Simple package to take screenshots_
