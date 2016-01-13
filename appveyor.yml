@@ -1,0 +1,11 @@
+-
+  branches:
+    only:
+    - master
+
+  before_build:
+    - nuget restore ScreenshotTaker.sln
+
+  build_script: 
+    - msbuild ScreenshotTaker.sln /p:Configuration=Release /t:Rebuild
+  
