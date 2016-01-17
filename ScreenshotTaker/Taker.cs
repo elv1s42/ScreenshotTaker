@@ -25,6 +25,18 @@ namespace ScreenshotTaker
         }
 
         /// <summary>
+        /// Default name for screenshot
+        /// </summary>
+        /// <param name="now"></param>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        public static string GetScreenName(DateTime now, ImageFormat format = null)
+        {
+            format = format ?? ImageFormat.Png;
+            return String.Format("screenshot_{0}.{1}", now.ToString("yyyyMMddHHmmssfff"), format.ToString().ToLower());
+        }
+
+        /// <summary>
         /// Method to get currently executing assembly path
         /// </summary>
         /// <returns>Path to the assembly</returns>
@@ -52,6 +64,41 @@ namespace ScreenshotTaker
             {
                 dir.Delete(true);
             }
+        }
+
+        /// <summary>
+        /// Method to take screenshot from primary screen, change it's creation time and save it into the folder
+        /// </summary>
+        /// <param name="creationTime"></param>
+        /// <param name="screenPath"></param>
+        /// <returns></returns>
+        public static string TakeScreenshot(DateTime creationTime = default(DateTime), string screenPath = "")
+        {
+            var format = ImageFormat.Png;
+            var now = DateTime.Now;
+            creationTime = creationTime.Equals(default(DateTime)) ? now : creationTime;
+            var screenName = GetScreenName(creationTime, format);
+
+            using (var bmpScreenCapture = new Bitmap(Screen.PrimaryScreen.Bounds.Width,
+                                            Screen.PrimaryScreen.Bounds.Height))
+            {
+                using (var g = Graphics.FromImage(bmpScreenCapture))
+                {
+                    g.CopyFromScreen(Screen.PrimaryScreen.Bounds.X,
+                                     Screen.PrimaryScreen.Bounds.Y,
+                                     0, 0,
+                                     bmpScreenCapture.Size,
+                                     CopyPixelOperation.SourceCopy);
+
+                    var file = (screenPath.Equals("") ? GetPath() : screenPath) + screenName;
+                    bmpScreenCapture.Save(file, format);
+                    var fileInfo = new FileInfo(file);
+                    fileInfo.Refresh();
+                    fileInfo.CreationTime = creationTime;
+
+                }
+            }
+            return screenName;
         }
 
         /// <summary>
