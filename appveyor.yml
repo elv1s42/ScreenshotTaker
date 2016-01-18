@@ -11,7 +11,7 @@
   
   after_build:
     - nuget pack "ScreenshotTaker/ScreenshotTaker.csproj" -Prop Configuration=Release
-	
+
   artifacts:
     - path: '*.nupkg'
       name: nupkg
@@ -27,7 +27,7 @@
   branches:
     except:
     - master
-	
+
   before_build:
     - nuget restore ScreenshotTaker.sln
 
