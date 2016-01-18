@@ -9,3 +9,27 @@
   build_script: 
     - msbuild ScreenshotTaker.sln /p:Configuration=Release /t:Rebuild
   
+  after_build:
+    - nuget pack "ScreenshotTaker/ScreenshotTaker.csproj" -Prop Configuration=Release
+	
+  artifacts:
+    - path: '*.nupkg'
+      name: nupkg
+
+  deploy:
+    provider: NuGet
+    server:
+    api_key:
+      secure: 9yi/3AxzA2lFr7VXTxf8Zk4OYX40IAUF3k7XKusuZss=
+    skip_symbols: false
+    artifact: nupkg
+-
+  branches:
+    except:
+    - master
+	
+  before_build:
+    - nuget restore ScreenshotTaker.sln
+
+  build_script: 
+    - msbuild ScreenshotTaker.sln /p:Configuration=Release /t:Rebuild

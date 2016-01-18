@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/elv1s42/ScreenshotTaker/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/elv1s42/ScreenshotTaker</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Simple package to take screenshots</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright Kosjakov Evgeniy [42_@mail.ru] 2015-2016</copyright>
+    <tags></tags>
+  </metadata>
+</package>
