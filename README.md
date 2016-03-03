@@ -5,7 +5,11 @@
 [![Issue Count](https://codeclimate.com/github/elv1s42/ScreenshotTaker/badges/issue_count.svg)](https://codeclimate.com/github/elv1s42/ScreenshotTaker)
 
 <p align="center">
-  <img align="center" src="https://github.com/elv1s42/ScreenshotTaker/blob/master/Icon.png?raw=true">
+  <b>Some Links:</b><br>
+  <a href="https://github.com/elv1s42/ScreenshotTaker/releases">Releases</a> |
+  <a href="https://www.nuget.org/packages/ScreenshotTaker">Nuget</a> 
+  <br><br>
+  <img src="https://github.com/elv1s42/ScreenshotTaker/blob/master/Icon.png?raw=true">
 </p>
 
 # ScreenshotTaker
