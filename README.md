@@ -4,13 +4,14 @@
 [![NuGet Version](https://img.shields.io/nuget/v/ScreenshotTaker.svg)](https://www.nuget.org/packages/ScreenshotTaker)
 [![Issue Count](https://codeclimate.com/github/elv1s42/ScreenshotTaker/badges/issue_count.svg)](https://codeclimate.com/github/elv1s42/ScreenshotTaker)
 
+<p align="center">
+  <img align="center" src="https://github.com/elv1s42/ScreenshotTaker/blob/master/Icon.png?raw=true">
+</p>
+
 # ScreenshotTaker
 _Simple package to take screenshots_
 
 ### Current version: 1.0.3
-<p align="center">
-  <img align="center" src="https://github.com/elv1s42/ScreenshotTaker/blob/master/Icon.png?raw=true">
-</p>
 
 ##  Installation and Usage
 
