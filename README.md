@@ -8,8 +8,9 @@
 _Simple package to take screenshots_
 
 ### Current version: 1.0.3
-
-[![ScreenshotTaker](https://github.com/elv1s42/ScreenshotTaker/blob/master/Icon.png?raw=true)](https://github.com/elv1s42/ScreenshotTaker/releases)
+<p align="center">
+  <img align="center" src="https://github.com/elv1s42/ScreenshotTaker/blob/master/Icon.png?raw=true">
+</p>
 
 ##  Installation and Usage
 
