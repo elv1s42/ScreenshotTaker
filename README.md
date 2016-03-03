@@ -9,7 +9,7 @@
   <a href="https://github.com/elv1s42/ScreenshotTaker/releases">Releases</a> |
   <a href="https://www.nuget.org/packages/ScreenshotTaker">Nuget</a> 
   <br><br>
-  <img src="https://github.com/elv1s42/ScreenshotTaker/blob/master/Icon.png?raw=true">
+  <img src="https://github.com/elv1s42/ScreenshotTaker/blob/master/Icon.png?raw=true" alt="Project icon">
 </p>
 
 # ScreenshotTaker
