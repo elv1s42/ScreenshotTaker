@@ -15,7 +15,7 @@
 # ScreenshotTaker
 _Simple package to take screenshots_
 
-### Current version: 1.0.3
+#### Current version: 1.0.3
 
 ##  Installation and Usage
 
