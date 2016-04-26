@@ -1,3 +1,11 @@
+<p align="center">
+  <b>Some Links:</b><br>
+  <a href="https://github.com/elv1s42/ScreenshotTaker/releases">Releases</a> |
+  <a href="https://www.nuget.org/packages/ScreenshotTaker">Nuget</a> 
+  <br><br>
+  <img src="https://github.com/elv1s42/ScreenshotTaker/blob/master/Icon.png?raw=true" alt="Project icon">
+</p>
+
 [![Windows Build status](https://ci.appveyor.com/api/projects/status/github/elv1s42/screenshottaker?branch=master&svg=true)](https://ci.appveyor.com/project/elv1s42/screenshottaker/branch/master)
 [![Build Status](https://travis-ci.org/elv1s42/ScreenshotTaker.svg)](https://travis-ci.org/elv1s42/ScreenshotTaker)
 [![NuGet Version and Downloads count](https://buildstats.info/nuget/ScreenshotTaker)](https://www.nuget.org/packages/ScreenshotTaker)
@@ -7,14 +15,6 @@
 [![Build history](https://buildstats.info/appveyor/chart/elv1s42/ScreenshotTaker?branch=master)](https://ci.appveyor.com/project/elv1s42/screenshottaker/history/branch/master)
 
 [![Build history](https://buildstats.info/travisci/chart/elv1s42/ScreenshotTaker?branch=master)](https://travis-ci.org/elv1s42/ScreenshotTaker/builds)
-
-<p align="center">
-  <b>Some Links:</b><br>
-  <a href="https://github.com/elv1s42/ScreenshotTaker/releases">Releases</a> |
-  <a href="https://www.nuget.org/packages/ScreenshotTaker">Nuget</a> 
-  <br><br>
-  <img src="https://github.com/elv1s42/ScreenshotTaker/blob/master/Icon.png?raw=true" alt="Project icon">
-</p>
 
 # ScreenshotTaker
 _Simple package to take screenshots_
