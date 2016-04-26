@@ -4,6 +4,10 @@
 [![NuGet Version](https://img.shields.io/nuget/v/ScreenshotTaker.svg)](https://www.nuget.org/packages/ScreenshotTaker)
 [![Issue Count](https://codeclimate.com/github/elv1s42/ScreenshotTaker/badges/issue_count.svg)](https://codeclimate.com/github/elv1s42/ScreenshotTaker)
 
+[![Build history](https://buildstats.info/appveyor/chart/elv1s42/ScreenshotTaker?branch=master)](https://ci.appveyor.com/project/elv1s42/screenshottaker/history/branch/master)
+
+[![Build history](https://buildstats.info/travisci/chart/elv1s42/ScreenshotTaker?branch=master)](https://travis-ci.org/elv1s42/ScreenshotTaker/builds)
+
 <p align="center">
   <b>Some Links:</b><br>
   <a href="https://github.com/elv1s42/ScreenshotTaker/releases">Releases</a> |
