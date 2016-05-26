@@ -16,7 +16,7 @@
 [![Issue Count](https://codeclimate.com/github/elv1s42/ScreenshotTaker/badges/issue_count.svg)](https://codeclimate.com/github/elv1s42/ScreenshotTaker)
 
 
-
+[![Language](https://toprated.github.io/Badges/LanguageBadge.svg?user=elv1s42&repo=NUnitGo&theme=dark)](https://github.com/elv1s42/ScreenshotTaker)
 
 
 # ScreenshotTaker
