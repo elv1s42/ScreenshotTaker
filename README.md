@@ -14,7 +14,7 @@
 [![NuGet Version and Downloads count](https://buildstats.info/nuget/ScreenshotTaker)](https://www.nuget.org/packages/ScreenshotTaker)
 [![NuGet Version](https://img.shields.io/nuget/v/ScreenshotTaker.svg)](https://www.nuget.org/packages/ScreenshotTaker)
 [![Issue Count](https://codeclimate.com/github/elv1s42/ScreenshotTaker/badges/issue_count.svg)](https://codeclimate.com/github/elv1s42/ScreenshotTaker)
-[![Language](http://gh-toprated.info/badge)](https://github.com/elv1s42/ScreenshotTaker)
+[![Language](http://gh-toprated.info/Badges/LanguageBadge)](https://github.com/elv1s42/ScreenshotTaker)
 
 
 # ScreenshotTaker
