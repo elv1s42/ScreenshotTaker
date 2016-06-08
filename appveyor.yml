@@ -33,3 +33,4 @@
 
   build_script: 
     - msbuild ScreenshotTaker.sln /p:Configuration=Release /t:Rebuild
+    
