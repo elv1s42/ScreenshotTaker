@@ -16,6 +16,10 @@
 [![Issue Count](https://codeclimate.com/github/elv1s42/ScreenshotTaker/badges/issue_count.svg)](https://codeclimate.com/github/elv1s42/ScreenshotTaker)
 [![Language](http://gh-toprated.info/Badges/LanguageBadge?user=elv1s42&repo=ScreenshotTaker)](https://github.com/elv1s42/ScreenshotTaker)
 
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/da06a359-9735-47e3-b848-d5143a756522/big.png)](https://insight.sensiolabs.com/projects/da06a359-9735-47e3-b848-d5143a756522)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/da06a359-9735-47e3-b848-d5143a756522/small.png)](https://insight.sensiolabs.com/projects/da06a359-9735-47e3-b848-d5143a756522)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/da06a359-9735-47e3-b848-d5143a756522/mini.png)](https://insight.sensiolabs.com/projects/da06a359-9735-47e3-b848-d5143a756522)
+
 
 # ScreenshotTaker
 _Simple package to take screenshots_
