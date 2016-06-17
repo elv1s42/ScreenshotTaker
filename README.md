@@ -38,7 +38,3 @@ or download [latest release](https://github.com/elv1s42/ScreenshotTaker/releases
 
 Screenshots will be saved into the folder "path_to_current_running_assembly\\_Screenshots" 
 or into the specified folder
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/elv1s42/screenshottaker/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
