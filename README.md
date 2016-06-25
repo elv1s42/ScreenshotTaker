@@ -1,9 +1,3 @@
-
-[![NuGet Version and Downloads count](https://buildstats.info/nuget/ScreenshotTaker)](https://www.nuget.org/packages/ScreenshotTaker)
-[![NuGet Version](https://img.shields.io/nuget/v/ScreenshotTaker.svg)](https://www.nuget.org/packages/ScreenshotTaker)
-[![Issue Count](https://codeclimate.com/github/elv1s42/ScreenshotTaker/badges/issue_count.svg)](https://codeclimate.com/github/elv1s42/ScreenshotTaker)
-[![Language](http://gh-toprated.info/Badges/LanguageBadge?user=elv1s42&repo=ScreenshotTaker&theme=light&fontWeight=bold)](https://github.com/elv1s42/ScreenshotTaker)
-
 <p align="center">
   <b>Some Links:</b><br>
   <a href="https://github.com/elv1s42/ScreenshotTaker/releases">Releases</a> |
@@ -11,6 +5,11 @@
   <br><br>
   <img src="https://github.com/elv1s42/ScreenshotTaker/blob/master/Icon.png?raw=true" alt="Project icon">
 </p>
+
+[![NuGet Version and Downloads count](https://buildstats.info/nuget/ScreenshotTaker)](https://www.nuget.org/packages/ScreenshotTaker)
+[![NuGet Version](https://img.shields.io/nuget/v/ScreenshotTaker.svg)](https://www.nuget.org/packages/ScreenshotTaker)
+[![Issue Count](https://codeclimate.com/github/elv1s42/ScreenshotTaker/badges/issue_count.svg)](https://codeclimate.com/github/elv1s42/ScreenshotTaker)
+[![Language](http://gh-toprated.info/Badges/LanguageBadge?user=elv1s42&repo=ScreenshotTaker&theme=light&fontWeight=bold)](https://github.com/elv1s42/ScreenshotTaker)
 
 |CI System|Appveyor|Travis-CI|
 |---|---|---|
